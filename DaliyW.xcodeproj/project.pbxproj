@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE85E73655659BA049F86C8 /* Pods_DaliyW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */; };
+		3C5536E21F85F664004E1D36 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5536E11F85F664004E1D36 /* Splash.swift */; };
+		3C5536E31F85F859004E1D36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2685D91F85F30F006B8B2A /* GoogleService-Info.plist */; };
+		3CDB9D9D1F86018D008725CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB9D9C1F86018D008725CF /* Extensions.swift */; };
 		3CF6DBEB1F85F0B100E22CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEA1F85F0B100E22CF4 /* AppDelegate.swift */; };
 		3CF6DBED1F85F0B100E22CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEC1F85F0B100E22CF4 /* ViewController.swift */; };
 		3CF6DBF01F85F0B100E22CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEE1F85F0B100E22CF4 /* Main.storyboard */; };
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaliyW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.release.xcconfig"; sourceTree = "<group>"; };
+		3C2685D91F85F30F006B8B2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C5536E11F85F664004E1D36 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		3CDB9D9C1F86018D008725CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3CF6DBE71F85F0B100E22CF4 /* DaliyW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaliyW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF6DBEA1F85F0B100E22CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF6DBEC1F85F0B100E22CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		3CF6DC061F85F0B200E22CF4 /* DaliyWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaliyWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF6DC0A1F85F0B200E22CF4 /* DaliyWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaliyWUITests.swift; sourceTree = "<group>"; };
 		3CF6DC0C1F85F0B200E22CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE85E73655659BA049F86C8 /* Pods_DaliyW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				3CF6DBFE1F85F0B200E22CF4 /* DaliyWTests */,
 				3CF6DC091F85F0B200E22CF4 /* DaliyWUITests */,
 				3CF6DBE81F85F0B100E22CF4 /* Products */,
+				9C23F4D30328B943B2C12A7B /* Pods */,
+				51F827E6DE7AFF6957CFB35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +116,9 @@
 				3CF6DBF11F85F0B100E22CF4 /* Assets.xcassets */,
 				3CF6DBF31F85F0B100E22CF4 /* LaunchScreen.storyboard */,
 				3CF6DBF61F85F0B100E22CF4 /* Info.plist */,
+				3C2685D91F85F30F006B8B2A /* GoogleService-Info.plist */,
+				3C5536E11F85F664004E1D36 /* Splash.swift */,
+				3CDB9D9C1F86018D008725CF /* Extensions.swift */,
 			);
 			path = DaliyW;
 			sourceTree = "<group>";
@@ -125,6 +141,23 @@
 			path = DaliyWUITests;
 			sourceTree = "<group>";
 		};
+		51F827E6DE7AFF6957CFB35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C23F4D30328B943B2C12A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */,
+				2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CF6DC0F1F85F0B200E22CF4 /* Build configuration list for PBXNativeTarget "DaliyW" */;
 			buildPhases = (
+				F078FD8265BB60A8917C51FC /* [CP] Check Pods Manifest.lock */,
 				3CF6DBE31F85F0B100E22CF4 /* Sources */,
 				3CF6DBE41F85F0B100E22CF4 /* Frameworks */,
 				3CF6DBE51F85F0B100E22CF4 /* Resources */,
+				E90B0A4FCE8EE45A527BE8AA /* [CP] Embed Pods Frameworks */,
+				1DD7795143E15A850889EAC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF6DBF51F85F0B100E22CF4 /* LaunchScreen.storyboard in Resources */,
+				3C5536E31F85F859004E1D36 /* GoogleService-Info.plist in Resources */,
 				3CF6DBF21F85F0B100E22CF4 /* Assets.xcassets in Resources */,
 				3CF6DBF01F85F0B100E22CF4 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +291,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DD7795143E15A850889EAC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90B0A4FCE8EE45A527BE8AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F078FD8265BB60A8917C51FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaliyW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CF6DBE31F85F0B100E22CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CF6DBED1F85F0B100E22CF4 /* ViewController.swift in Sources */,
+				3C5536E21F85F664004E1D36 /* Splash.swift in Sources */,
 				3CF6DBEB1F85F0B100E22CF4 /* AppDelegate.swift in Sources */,
+				3CDB9D9D1F86018D008725CF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +535,13 @@
 		};
 		3CF6DC101F85F0B200E22CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YJEAPX976;
 				INFOPLIST_FILE = DaliyW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +552,13 @@
 		};
 		3CF6DC111F85F0B200E22CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YJEAPX976;
 				INFOPLIST_FILE = DaliyW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
