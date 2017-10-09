@@ -1,0 +1,6 @@
+framework module Pods_DaliyWUITests {
+  umbrella header "Pods-DaliyWUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
