@@ -3,30 +3,122 @@
 //  DaliyW
 //
 //  Created by Mammademin Muzaffarli on 10/5/17.
-//  Copyright © 2017 Mammademin Muzaffarli. All rights reserved.
+//  Copyright © 2017 Nijat Muzaffarli. All rights reserved.
 //
 
 import UIKit
 import Firebase
-//import InMobiSDK
-
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,GADInterstitialDelegate {
-
     var window: UIWindow?
     var myInterstitial : GADInterstitial?
+    let gcmMessageIDKey = "gcm.message_id"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
-        //IMSdk.initWithAccountID("e71c6375cb5b484a8d7439b57f4361e8")
-        GADMobileAds.configure(withApplicationID:"ca-app-pub-5739467095196341~2246383147")
-        myInterstitial = createAndLoadInterstitial()
         
-        // Override point for customization after application launch.
-        return true
-    }
+        FirebaseApp.configure()
+        
+                _ = Pushbots(appId:"59e759709b823aa32f8b4572", prompt: true)
+               Pushbots.sharedInstance().trackPushNotificationOpened(launchOptions: launchOptions)
 
+        if launchOptions != nil {
+            if let userInfo = launchOptions![UIApplicationLaunchOptionsKey.remoteNotification] as? NSDictionary {
+                //Capture notification data e.g. badge, alert and sound
+                if let aps = userInfo["aps"] as? NSDictionary {
+                    let alert = aps["alert"] as! String
+                    print("Notification message: ", alert);
+                    //UIAlertView(title:"Push Notification!", message:alert, delegate:nil, cancelButtonTitle:"OK").show()
+                }
+                
+                //Capture custom fields
+                if let articleId = userInfo["articleId"] as? NSString {
+                    print("ArticleId: ", articleId);
+                }
+            }
+        }
+ 
+        
+        application.registerForRemoteNotifications()
+        do {
+            Network.reachability = try Reachability(hostname: "www.google.com")
+            do {
+                try Network.reachability?.start()
+            } catch let error as Network.Error {
+                print(error)
+            } catch {
+                print(error)
+            }
+        } catch {
+            print(error)
+        }
+          updateUserInterface()
+            return true
+    }
+    
+  
+    func application(_ application: UIApplication,  didReceiveRemoteNotification userInfo: [AnyHashable : Any],  fetchCompletionHandler handler: @escaping (UIBackgroundFetchResult) -> Void) {
+        //Track notification only if the application opened from Background by clicking on the notification.
+        if application.applicationState == .inactive  {
+            Pushbots.sharedInstance().trackPushNotificationOpened(withPayload: userInfo);
+        }
+        
+        //The application was already active when the user got the notification, just show an alert.
+        //That should *not* be considered open from Push.
+        if application.applicationState == .active  {
+            //Capture notification data e.g. badge, alert and sound
+            if let aps = userInfo["aps"] as? NSDictionary {
+                let alert_message = aps["alert"] as! String
+                let alert = UIAlertController(title: "title",
+                                              message: alert_message,
+                                              preferredStyle: .alert)
+                let defaultButton = UIAlertAction(title: "OK",
+                                                  style: .default) {(_) in
+                                                    // your defaultButton action goes here
+                }
+                
+                alert.addAction(defaultButton)
+                self.window?.rootViewController?.present(alert, animated: true) {
+                    // completion goes here
+                }
+            }
+        }
+    }
+    
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        // This method will be called everytime you open the app
+        // Register the deviceToken on Pushbots
+        Pushbots.sharedInstance().register(onPushbots: deviceToken);
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Notification Registration Error \(error)")
+    }
+    
+    func updateUserInterface() {
+        guard let status = Network.reachability?.status else { return }
+        switch status {
+        case .unreachable:
+            print("unreacble appDelegate")
+        case .wifi:
+            GADMobileAds.configure(withApplicationID:"ca-app-pub-5739467095196341~2246383147")
+            myInterstitial = createAndLoadInterstitial()
+            print("wifi delegate")
+        case .wwan:
+            GADMobileAds.configure(withApplicationID:"ca-app-pub-5739467095196341~2246383147")
+            myInterstitial = createAndLoadInterstitial()
+            print("mobile data delegate")
+        }
+    }
+                    
+    @objc func statusManager(_ notification: NSNotification) {
+        updateUserInterface()
+    }
+    
+
+    
     func createAndLoadInterstitial()->GADInterstitial {
         let interstitial = GADInterstitial(adUnitID: "ca-app-pub-5739467095196341/3274547878")
         interstitial.delegate = self
@@ -65,13 +157,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GADInterstitialDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-        
+        NotificationCenter.default.addObserver(self, selector: #selector(statusManager), name: .flagsChanged, object: Network.reachability)
+       updateUserInterface()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
 }
-

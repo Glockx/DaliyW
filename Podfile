@@ -1,6 +1,4 @@
-
 # Uncomment the next line to define a global platform for your project
-source 'https://github.com/CocoaPods/Specs.git'
 # platform :ios, '9.0'
 
 target 'DaliyW' do
@@ -10,9 +8,11 @@ target 'DaliyW' do
   # Pods for DaliyW
 	pod 'Firebase/AdMob'
 	pod 'Firebase/Core'
-	pod 'SDWebImage/WebP'
+	pod 'ChameleonFramework/Swift'
+	pod 'SDWebImage', '~> 4.0'
 	pod 'Firebase/Firestore'
-	pod 'GoogleMobileAdsMediationInMobi'
+	pod 'Hero', '1.0.0-alpha.4'
+	pod 'Pushbots', '~> 2.0.4'
 
   target 'DaliyWTests' do
     inherit! :search_paths

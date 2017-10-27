@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>13</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
@@ -29,14 +29,18 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSAppleMusicUsageDescription</key>
-	<string></string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>$(PRODUCT_NAME) need acess to your photo album to save wallpaper.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Hi this is tets</string>
+	<string>$(PRODUCT_NAME) need acess to your photo album to save wallpaper.</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>NimbusSanL-ReguItal.otf</string>
+		<string>NimbusSanL Regular.ttf</string>
 		<string>ufonts.com_nimbussanl-bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

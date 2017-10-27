@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		2FE85E73655659BA049F86C8 /* Pods_DaliyW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		3C5536E21F85F664004E1D36 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5536E11F85F664004E1D36 /* Splash.swift */; };
+		3C7053EC1F8DA9A200395556 /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7053EA1F8DA95100395556 /* AppIcon-120.png */; };
+		3C7053ED1F8DA9A400395556 /* AppIcon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7053EB1F8DA95100395556 /* AppIcon-60.png */; };
+		3C7053EE1F8DB0C700395556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C170D441F8D9A6D00F3111D /* Assets.xcassets */; };
 		3CA7E00E1F886F19003357AC /* ufonts.com_nimbussanl-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E00C1F886A10003357AC /* ufonts.com_nimbussanl-bold.ttf */; };
-		3CA7E00F1F886F1E003357AC /* NimbusSanL-ReguItal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7E00D1F886C02003357AC /* NimbusSanL-ReguItal.otf */; };
 		3CA7E0111F88732D003357AC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7E0101F88732D003357AC /* AboutViewController.swift */; };
-		3CD99D9C1F899E84001272F6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99D941F899AF6001272F6 /* WebKit.framework */; };
-		3CD99D9D1F899E8C001272F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99D921F899AEE001272F6 /* libz.tbd */; };
-		3CD99D9E1F899E96001272F6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99D901F899AE3001272F6 /* libsqlite3.0.tbd */; };
-		3CD99DA21F899F33001272F6 /* InMobiAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99DA11F899F2A001272F6 /* InMobiAdapter.framework */; };
-		3CD99DA31F899F33001272F6 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99DA01F899F29001272F6 /* InMobiSDK.framework */; };
 		3CDB9D9D1F86018D008725CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB9D9C1F86018D008725CF /* Extensions.swift */; };
 		3CF6DBEB1F85F0B100E22CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEA1F85F0B100E22CF4 /* AppDelegate.swift */; };
 		3CF6DBED1F85F0B100E22CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEC1F85F0B100E22CF4 /* ViewController.swift */; };
 		3CF6DBF01F85F0B100E22CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DBEE1F85F0B100E22CF4 /* Main.storyboard */; };
-		3CF6DBF21F85F0B100E22CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DBF11F85F0B100E22CF4 /* Assets.xcassets */; };
 		3CF6DBF51F85F0B100E22CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6DBF31F85F0B100E22CF4 /* LaunchScreen.storyboard */; };
 		3CF6DC001F85F0B200E22CF4 /* DaliyWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DBFF1F85F0B200E22CF4 /* DaliyWTests.swift */; };
 		3CF6DC0B1F85F0B200E22CF4 /* DaliyWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6DC0A1F85F0B200E22CF4 /* DaliyWUITests.swift */; };
 		3CFF9B891F898C8400C7806C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF9B881F898C8200C7806C /* GoogleService-Info.plist */; };
+		7D3C81291F8F11D100D58CB2 /* 38459.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3C81281F8F11CC00D58CB2 /* 38459.png */; };
+		7DBD08AB1FA377CF008EF37A /* DRGradientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD08AA1FA377CF008EF37A /* DRGradientProgressView.swift */; };
 		871AF54080E3E0963F219A29 /* Pods_DaliyWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27959B7F17C0C43582C590D /* Pods_DaliyWUITests.framework */; };
 		D708F217F695B7F62C0BD4F7 /* Pods_DaliyWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C628C22462125F4D9D79DFCC /* Pods_DaliyWTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,13 +59,14 @@
 
 /* Begin PBXFileReference section */
 		2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaliyW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.release.xcconfig"; sourceTree = "<group>"; };
 		34926E7A18295A42A4E31EAB /* Pods-DaliyWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyWUITests/Pods-DaliyWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C170D441F8D9A6D00F3111D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C20622E1F85980000548DE3 /* FlexibleImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlexibleImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5536E11F85F664004E1D36 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		3C60FA191F85772F00D5A46D /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7053EA1F8DA95100395556 /* AppIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-120.png"; sourceTree = "<group>"; };
+		3C7053EB1F8DA95100395556 /* AppIcon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-60.png"; sourceTree = "<group>"; };
 		3CA7E00C1F886A10003357AC /* ufonts.com_nimbussanl-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ufonts.com_nimbussanl-bold.ttf"; sourceTree = "<group>"; };
-		3CA7E00D1F886C02003357AC /* NimbusSanL-ReguItal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NimbusSanL-ReguItal.otf"; sourceTree = "<group>"; };
 		3CA7E0101F88732D003357AC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		3CA7E0151F888230003357AC /* DaliyW-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaliyW-Bridging-Header.h"; sourceTree = "<group>"; };
 		3CB687751F85910F0047978A /* SABlurImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SABlurImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,15 +74,12 @@
 		3CD99D901F899AE3001272F6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3CD99D921F899AEE001272F6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3CD99D941F899AF6001272F6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		3CD99DA01F899F29001272F6 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
-		3CD99DA11F899F2A001272F6 /* InMobiAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiAdapter.framework; sourceTree = "<group>"; };
 		3CDB9D9C1F86018D008725CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3CE6617B1F8557FF004BDBBF /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Kingfisher.framework; path = "../../../../../../../../../Users/mammademinmuzaffarli/Library/Developer/Xcode/DerivedData/DaliyW-eewktqsdvxwxyqhkrhmazkeuefdo/Build/Products/Debug-iphoneos/Kingfisher.framework"; sourceTree = SDKROOT; };
 		3CF6DBE71F85F0B100E22CF4 /* DaliyW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaliyW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF6DBEA1F85F0B100E22CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF6DBEC1F85F0B100E22CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CF6DBEF1F85F0B100E22CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3CF6DBF11F85F0B100E22CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF6DBF41F85F0B100E22CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF6DBF61F85F0B100E22CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF6DBFB1F85F0B200E22CF4 /* DaliyWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaliyWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,12 +89,23 @@
 		3CF6DC0A1F85F0B200E22CF4 /* DaliyWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaliyWUITests.swift; sourceTree = "<group>"; };
 		3CF6DC0C1F85F0B200E22CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CFF9B881F898C8200C7806C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4143ACC5EA0EA8735296A00C /* Pods-DaliyW-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW-OneSignalNotificationServiceExtension/Pods-DaliyW-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		655D9314EFB0578CE4F3EA74 /* Pods-DaliyWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyWUITests/Pods-DaliyWUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.debug.xcconfig"; sourceTree = "<group>"; };
+		7688CC360D949E7222DDBD62 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3C81281F8F11CC00D58CB2 /* 38459.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 38459.png; path = ../../../../38459.png; sourceTree = "<group>"; };
+		7D77488A1F977ACD00AF67D2 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8DD02D1F8EC2BA00869067 /* NimbusSanL Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NimbusSanL Regular.ttf"; sourceTree = "<group>"; };
+		7D9608E61F979C2F0049B01B /* DaliyW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DaliyW.entitlements; sourceTree = "<group>"; };
+		7DBD08AA1FA377CF008EF37A /* DRGradientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRGradientProgressView.swift; sourceTree = "<group>"; };
+		7DBED55C1F8EFDAF005F3335 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9CF907D33C9A3AEE93F7E20C /* Pods_DaliyW_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaliyW_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23332880268CE4FC29B6145 /* Pods-DaliyWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyWTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyWTests/Pods-DaliyWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C52C04CA4D30783BDCDF11A7 /* Pods-DaliyW-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW-OneSignalNotificationServiceExtension/Pods-DaliyW-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		C628C22462125F4D9D79DFCC /* Pods_DaliyWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaliyWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27959B7F17C0C43582C590D /* Pods_DaliyWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaliyWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66A215F27142B9AFD30A09F /* Pods-DaliyWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyWTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyWTests/Pods-DaliyWTests.release.xcconfig"; sourceTree = "<group>"; };
+		D976C46F3D55E5A90621ADBB /* Pods-DaliyW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.debug.xcconfig"; sourceTree = "<group>"; };
+		F035A674345EBE031F0CCD32 /* Pods-DaliyW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaliyW.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CD99DA21F899F33001272F6 /* InMobiAdapter.framework in Frameworks */,
-				3CD99DA31F899F33001272F6 /* InMobiSDK.framework in Frameworks */,
-				3CD99D9E1F899E96001272F6 /* libsqlite3.0.tbd in Frameworks */,
-				3CD99D9D1F899E8C001272F6 /* libz.tbd in Frameworks */,
-				3CD99D9C1F899E84001272F6 /* WebKit.framework in Frameworks */,
 				2FE85E73655659BA049F86C8 /* Pods_DaliyW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,14 +133,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D7748871F977ACD00AF67D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3CA7E0121F887642003357AC /* Resoruces */ = {
 			isa = PBXGroup;
 			children = (
+				7D8DD02D1F8EC2BA00869067 /* NimbusSanL Regular.ttf */,
+				3C7053EB1F8DA95100395556 /* AppIcon-60.png */,
+				7D3C81281F8F11CC00D58CB2 /* 38459.png */,
+				3C7053EA1F8DA95100395556 /* AppIcon-120.png */,
 				3CA7E00C1F886A10003357AC /* ufonts.com_nimbussanl-bold.ttf */,
-				3CA7E00D1F886C02003357AC /* NimbusSanL-ReguItal.otf */,
 			);
 			path = Resoruces;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 				3CF6DBEA1F85F0B100E22CF4 /* AppDelegate.swift */,
 				3CF6DBEC1F85F0B100E22CF4 /* ViewController.swift */,
 				3CA7E0101F88732D003357AC /* AboutViewController.swift */,
+				7DBD08AA1FA377CF008EF37A /* DRGradientProgressView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 				3CF6DBE71F85F0B100E22CF4 /* DaliyW.app */,
 				3CF6DBFB1F85F0B200E22CF4 /* DaliyWTests.xctest */,
 				3CF6DC061F85F0B200E22CF4 /* DaliyWUITests.xctest */,
+				7D77488A1F977ACD00AF67D2 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,15 +201,14 @@
 		3CF6DBE91F85F0B100E22CF4 /* DaliyW */ = {
 			isa = PBXGroup;
 			children = (
+				7D9608E61F979C2F0049B01B /* DaliyW.entitlements */,
 				3CA7E0141F887671003357AC /* Extension */,
 				3CA7E0131F88765B003357AC /* ViewModel */,
 				3CA7E0121F887642003357AC /* Resoruces */,
 				3CF6DBEE1F85F0B100E22CF4 /* Main.storyboard */,
+				3C170D441F8D9A6D00F3111D /* Assets.xcassets */,
 				3CF6DBF61F85F0B100E22CF4 /* Info.plist */,
 				3CFF9B881F898C8200C7806C /* GoogleService-Info.plist */,
-				3CD99DA11F899F2A001272F6 /* InMobiAdapter.framework */,
-				3CD99DA01F899F29001272F6 /* InMobiSDK.framework */,
-				3CF6DBF11F85F0B100E22CF4 /* Assets.xcassets */,
 				3CF6DBF31F85F0B100E22CF4 /* LaunchScreen.storyboard */,
 				3CA7E0151F888230003357AC /* DaliyW-Bridging-Header.h */,
 			);
@@ -223,6 +236,7 @@
 		51F827E6DE7AFF6957CFB35C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DBED55C1F8EFDAF005F3335 /* SystemConfiguration.framework */,
 				3CD99D941F899AF6001272F6 /* WebKit.framework */,
 				3CD99D921F899AEE001272F6 /* libz.tbd */,
 				3CD99D901F899AE3001272F6 /* libsqlite3.0.tbd */,
@@ -234,6 +248,8 @@
 				2B950E91A0A6F8D915E12E5F /* Pods_DaliyW.framework */,
 				C628C22462125F4D9D79DFCC /* Pods_DaliyWTests.framework */,
 				D27959B7F17C0C43582C590D /* Pods_DaliyWUITests.framework */,
+				9CF907D33C9A3AEE93F7E20C /* Pods_DaliyW_OneSignalNotificationServiceExtension.framework */,
+				7688CC360D949E7222DDBD62 /* Pods_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,12 +257,14 @@
 		9C23F4D30328B943B2C12A7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */,
-				2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */,
 				B23332880268CE4FC29B6145 /* Pods-DaliyWTests.debug.xcconfig */,
 				D66A215F27142B9AFD30A09F /* Pods-DaliyWTests.release.xcconfig */,
 				34926E7A18295A42A4E31EAB /* Pods-DaliyWUITests.debug.xcconfig */,
 				655D9314EFB0578CE4F3EA74 /* Pods-DaliyWUITests.release.xcconfig */,
+				D976C46F3D55E5A90621ADBB /* Pods-DaliyW.debug.xcconfig */,
+				F035A674345EBE031F0CCD32 /* Pods-DaliyW.release.xcconfig */,
+				C52C04CA4D30783BDCDF11A7 /* Pods-DaliyW-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				4143ACC5EA0EA8735296A00C /* Pods-DaliyW-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -317,6 +335,23 @@
 			productReference = 3CF6DC061F85F0B200E22CF4 /* DaliyWUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7D7748891F977ACD00AF67D2 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7748941F977ACE00AF67D2 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				7D7748861F977ACD00AF67D2 /* Sources */,
+				7D7748871F977ACD00AF67D2 /* Frameworks */,
+				7D7748881F977ACD00AF67D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 7D77488A1F977ACD00AF67D2 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -333,7 +368,13 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
 								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
 							};
 						};
 					};
@@ -346,6 +387,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3CF6DBE61F85F0B100E22CF4;
+					};
+					7D7748891F977ACD00AF67D2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -365,6 +410,7 @@
 				3CF6DBE61F85F0B100E22CF4 /* DaliyW */,
 				3CF6DBFA1F85F0B200E22CF4 /* DaliyWTests */,
 				3CF6DC051F85F0B200E22CF4 /* DaliyWUITests */,
+				7D7748891F977ACD00AF67D2 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -374,11 +420,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA7E00F1F886F1E003357AC /* NimbusSanL-ReguItal.otf in Resources */,
 				3CA7E00E1F886F19003357AC /* ufonts.com_nimbussanl-bold.ttf in Resources */,
+				7D3C81291F8F11D100D58CB2 /* 38459.png in Resources */,
+				3C7053ED1F8DA9A400395556 /* AppIcon-60.png in Resources */,
+				3C7053EC1F8DA9A200395556 /* AppIcon-120.png in Resources */,
 				3CF6DBF51F85F0B100E22CF4 /* LaunchScreen.storyboard in Resources */,
-				3CF6DBF21F85F0B100E22CF4 /* Assets.xcassets in Resources */,
 				3CF6DBF01F85F0B100E22CF4 /* Main.storyboard in Resources */,
+				3C7053EE1F8DB0C700395556 /* Assets.xcassets in Resources */,
 				3CFF9B891F898C8400C7806C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +439,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3CF6DC041F85F0B200E22CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7748881F977ACD00AF67D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -519,8 +574,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DaliyW/Pods-DaliyW-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
@@ -528,14 +585,15 @@
 				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
@@ -543,7 +601,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +638,7 @@
 				3CF6DBEB1F85F0B100E22CF4 /* AppDelegate.swift in Sources */,
 				3CA7E0111F88732D003357AC /* AboutViewController.swift in Sources */,
 				3CDB9D9D1F86018D008725CF /* Extensions.swift in Sources */,
+				7DBD08AB1FA377CF008EF37A /* DRGradientProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +655,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF6DC0B1F85F0B200E22CF4 /* DaliyWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7748861F977ACD00AF67D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,10 +809,13 @@
 		};
 		3CF6DC101F85F0B200E22CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A445B16ECB8669DD073651C3 /* Pods-DaliyW.debug.xcconfig */;
+			baseConfigurationReference = D976C46F3D55E5A90621ADBB /* Pods-DaliyW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DaliyW/DaliyW.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YJEAPX976;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -756,10 +824,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DaliyW/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DaliyW/DaliyW-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -769,10 +839,13 @@
 		};
 		3CF6DC111F85F0B200E22CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0C37C67A6BEBEAEDC4305F /* Pods-DaliyW.release.xcconfig */;
+			baseConfigurationReference = F035A674345EBE031F0CCD32 /* Pods-DaliyW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DaliyW/DaliyW.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YJEAPX976;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -781,10 +854,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DaliyW/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DaliyW/DaliyW-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -861,6 +936,40 @@
 			};
 			name = Release;
 		};
+		7D7748921F977ACE00AF67D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YJEAPX976;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7748931F977ACE00AF67D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YJEAPX976;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NijatMuzaffarli.DaliyW.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -896,6 +1005,15 @@
 			buildConfigurations = (
 				3CF6DC161F85F0B200E22CF4 /* Debug */,
 				3CF6DC171F85F0B200E22CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7748941F977ACE00AF67D2 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7748921F977ACE00AF67D2 /* Debug */,
+				7D7748931F977ACE00AF67D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
